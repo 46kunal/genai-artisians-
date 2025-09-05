@@ -126,6 +126,7 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+<<<<<<< HEAD
 }
 /* Add to src/index.css */
 @keyframes marquee {
@@ -141,4 +142,6 @@ All colors MUST be HSL.
   animation: marquee 30s linear infinite;
   display: flex;
   white-space: nowrap;
+=======
+>>>>>>> 7aa6d7a18ef0096032220ff1c0388ba83fd11f90
 }

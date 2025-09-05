@@ -8,8 +8,12 @@ import Index from "./pages/Index";
 import Auth from "./pages/Auth";
 import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
+<<<<<<< HEAD
 import Products from "./pages/products";
 import NewArrivals from "./pages/NewArrivals"; // New import
+=======
+
+>>>>>>> 7aa6d7a18ef0096032220ff1c0388ba83fd11f90
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -20,8 +24,11 @@ const App = () => (
       <BrowserRouter>
         <Navbar />
         <Routes>
+<<<<<<< HEAD
           <Route path="/products" element={<Products />} />
           <Route path="/products/new" element={<NewArrivals />} />
+=======
+>>>>>>> 7aa6d7a18ef0096032220ff1c0388ba83fd11f90
           <Route path="/" element={<Index />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/dashboard" element={<Dashboard />} />

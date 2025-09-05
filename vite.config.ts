@@ -19,4 +19,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+<<<<<<< HEAD
 }));
+=======
+}));
+>>>>>>> 7aa6d7a18ef0096032220ff1c0388ba83fd11f90
